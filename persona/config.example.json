@@ -1,0 +1,11 @@
+{
+  "proactive": {
+    "quiet_hours": ["00:30", "07:05"], "max_per_day": 3, "max_unanswered": 1, "cooldown_min": 90, "recent_chat_min": 30,
+    "scenarios": [
+      {"id": "morning_greeting", "window": ["08:00", "10:00"], "day_types": ["weekday", "weekend"]},
+      {"id": "share_something_found", "window": ["12:00", "14:00"]},
+      {"id": "evening_check_in", "window": ["19:00", "21:30"]}
+    ]
+  },
+  "wellbeing": {"enabled": true, "sleep_quiet_hours": ["00:30", "07:05"], "outward_nudge_days_mod": 3}
+}

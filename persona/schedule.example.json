@@ -1,0 +1,21 @@
+{
+  "weekday": [
+    {"start": "07:00", "activity": "cataloguing", "availability": "busy"},
+    {"start": "12:00", "activity": "listening break", "availability": "free", "pool": "playlists"},
+    {"start": "18:00", "activity": "reading", "availability": "free", "pool": "books"},
+    {"start": "23:30", "activity": "offline for the night", "availability": "sleeping"}
+  ],
+  "weekend": [
+    {"start": "09:00", "activity": "slow morning", "availability": "free", "pool": "playlists"},
+    {"start": "14:00", "activity": "map hunting", "availability": "free"},
+    {"start": "23:30", "activity": "offline for the night", "availability": "sleeping"}
+  ],
+  "holiday": [
+    {"start": "10:00", "activity": "day off", "availability": "free"},
+    {"start": "23:30", "activity": "offline for the night", "availability": "sleeping"}
+  ],
+  "pools": {
+    "playlists": [{"title": "a rainy-day playlist"}, {"title": "an old jazz mix"}, {"title": "a focus-music set"}, {"title": "a film-score mix"}, {"title": "a quiet piano set"}, {"title": "a map-hunting soundtrack"}],
+    "books": [{"title": "a mystery novel"}, {"title": "an atlas"}, {"title": "poetry"}, {"title": "a travel diary"}]
+  }
+}
